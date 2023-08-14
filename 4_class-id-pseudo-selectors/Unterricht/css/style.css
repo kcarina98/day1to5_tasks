@@ -1,0 +1,68 @@
+/* ! Pseudo Elemente werden mit :: eingeleitet */
+
+/* first-letter */
+section p::first-letter {
+  font-size: 30px;
+  color: gray;
+}
+
+/* first-line */
+section p {
+  background-color: linen;
+}
+
+/* ! kann natürlich auch kombiniert werden */
+section p:last-of-type::first-line {
+  text-decoration: underline;
+}
+
+/* ! mit ::marker kann ich in einer Liste das Symbol ändern */
+article li::marker {
+  content: "* ";
+  background-color: blueviolet;
+}
+
+/* !mit ::selection kann ich von markierten Texten die standardmäßige blaue Hinterlegung ändern */
+*::selection {
+  color: red;
+  background-color: yellow;
+}
+
+/* ! ::before und ::after  kann man für dekorative Elemente nutzen, da nicht SEO relevant*/
+article h4:nth-of-type(1)::after {
+  content: "-ich bin Carina";
+  color: pink;
+}
+
+article h4:nth-of-type(2)::before {
+  content: "###";
+  font-size: 30px;
+  color: aquamarine;
+}
+
+/* ! Class werden mit ."class-name" angesprochen */
+.class-example {
+  background-color: orange;
+  padding: 20px 20px;
+}
+
+/* ! ID werden mit #id-name angesprochen und haben mehr Macht als class, in einem Klassenkonflikt wird immer die id genommen */
+#id-example {
+  background-color: lightcoral;
+  font-size: 30px;
+}
+
+.btn {
+  background-color: rgb(79, 128, 154);
+  color: white;
+  padding: 10px 25px;
+  text-decoration: none;
+  border-radius: 10px;
+  margin: 50px;
+  display: inline-block;
+  transition: 0.5s;
+}
+
+.btn:hover {
+  background-color: rgb(0, 0, 0);
+}

@@ -1,0 +1,11 @@
+section h1 {
+  background-color: lightblue;
+}
+
+section {
+  background-color: linen;
+}
+
+article {
+  background-image: url("https://images.unsplash.com/photo-1506260408121-e353d10b87c7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8bmF0dXJlfHx8fHx8MTY5MTkxNzQwNA&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1080");
+}

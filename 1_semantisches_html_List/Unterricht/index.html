@@ -1,0 +1,93 @@
+<!-- so machen wir ein Kommentar Command + Shift + 7 -->
+
+<!-- DOCTYPE ab hier fängt für den Browser html an -->
+<!DOCTYPE html>
+
+<!-- lang = Sprache, de = deutsch-->
+<html lang="de">
+  <!-- head -> hier kommen Meta Infos rein -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Titel im Head</title>
+  </head>
+
+  <!-- body = hier kommt html rein -->
+  <body>
+    <header>
+      <nav>
+        <!-- auf andere Seiten navigieren -->
+        <a href="./about/about.html">About</a>
+      </nav>
+      <!-- H1 nur einmal pro Seite (große Überschrift)-->
+      <h1>Große Überschrift</h1>
+      <!-- Überschriften h2 bis h6 -->
+      <h2>Überschrift h2</h2>
+      <h3>h3</h3>
+      <h4>h4</h4>
+    </header>
+
+    <main>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos tempore sit
+        eveniet dolorum magni officia quae nostrum, voluptatum nihil beatae hic
+        voluptas perspiciatis repellendus, maiores laboriosam architecto, dolore
+        deserunt magnam odio numquam esse expedita temporibus illo. Ducimus
+        incidunt voluptatibus dicta facilis praesentium, rerum dolorem, nobis
+        tempora nulla vel architecto nemo!
+      </p>
+
+      <!-- Listen in html-->
+      <!-- ul = unordern list -->
+      <!-- ol = orderd list -->
+      <!-- li = list item - benötigen wir immer in einer Liste -->
+      <section>
+        <article>
+          <h5>Einkaufsliste</h5>
+          <ul>
+            <li>Milch</li>
+            <li>Eier</li>
+            <li>Wasser</li>
+          </ul>
+        </article>
+
+        <article>
+          <h5>To Do Liste</h5>
+          <ol>
+            <li>Einkaufen gehen</li>
+            <li>schlafen</li>
+          </ol>
+        </article>
+
+        <article>
+          <h4>Mix auf ul und ol</h4>
+          <ul>
+            <li>Essen gehen</li>
+            <li>Essen gehen</li>
+            <li>Einkaufen gehen</li>
+            <ol>
+              <li>Milch</li>
+              <li>Wasser</li>
+              <li>Eier</li>
+            </ol>
+          </ul>
+        </article>
+      </section>
+
+      <!-- Links in html -->
+      <a href="https://www.super-code.de/">Link</a>
+      <!-- mit target="_blank" Link in neuem Fenster -->
+      <a target="_blank" href="">Link im neuen Fenster</a>
+
+      <!-- Bilder in html -->
+      <!-- dynamischer Pfad -->
+      <img src="./assets/logo.png" alt="ein Bild vom Logo" />
+      <!--  statischer Pfad -->
+      <img
+        src="https://assets-global.website-files.com/62d9141584e7b7430fcafa69/6391be3d24d0038985b34df1_schomeheader_01.webp"
+        alt="Bild von Frau"
+      />
+      />
+    </main>
+  </body>
+</html>

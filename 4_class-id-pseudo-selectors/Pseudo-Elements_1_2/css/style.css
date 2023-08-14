@@ -1,0 +1,77 @@
+@font-face {
+  font-family: Mont;
+  src: url(../Montserrat-VariableFont_wght.ttf);
+}
+
+html {
+  font-family: Mont;
+}
+
+h3::first-letter {
+  font-size: 250%;
+  color: #307170;
+}
+
+h3:hover::first-letter {
+  color: #00bfff;
+}
+.erstes::first-letter {
+  color: #00ced1;
+  font-size: 200%;
+  text-decoration: overline;
+}
+
+.zweites::first-letter {
+  color: #c71585;
+  font-size: 200%;
+  text-decoration: underline;
+}
+
+.drittes::first-letter {
+  color: #32cd32;
+  font-size: 200%;
+  text-decoration: line-through;
+}
+
+.drittes {
+  text-decoration: line-through;
+}
+section p:nth-of-type(1) {
+  color: rgb(68, 64, 75);
+  text-indent: 70px;
+}
+
+section p:nth-of-type(1)::first-line {
+  font-size: 150%;
+}
+
+.first-letter {
+  font-size: 150%;
+}
+.first-letter::first-letter {
+  font-size: 200%;
+}
+
+.first-letter::first-line {
+  font-size: 100%;
+  color: #2e8b57;
+}
+
+.first-letter:hover::first-line {
+  color: #483d8b;
+}
+.red::first-letter {
+  color: red;
+}
+
+.letter::first-letter {
+  font-size: 150%;
+}
+
+.letter::first-line {
+  color: #2e8b57;
+}
+
+.letter:hover::first-line {
+  color: #483d8b;
+}

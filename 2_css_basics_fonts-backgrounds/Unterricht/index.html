@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Day2</title>
+
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <h1>nicht semantische Elemente</h1>
+
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, a eos?
+      <span>Veritatis</span> assumenda blanditiis, et amet excepturi optio vero
+      nobis provident dolorem sapiente earum. Quibusdam odio officia minus enim
+      hic?
+    </p>
+
+    <main>
+      <article>
+        <ol>
+          <li>span</li>
+          <li>div</li>
+        </ol>
+      </article>
+
+      <section>
+        <!-- Block Element -->
+
+        <h3>Unterschied zwischen inline und block elementen</h3>
+
+        <p>
+          Der Unterschied zwischen inline und block ist, dass block elemente
+          sind IMMER 100% breit wie der display! Inline Elemente sind nur so
+          breit wie das Element eben ist.
+        </p>
+        <h2>Beispiel für Blockelemente</h2>
+        <ul>
+          <li>article</li>
+          <li>section</li>
+          <li>div</li>
+          <li>footer</li>
+          <li>Überschriften h1-h6</li>
+          <li>ol und ul</li>
+          <li>li</li>
+          <li>p</li>
+        </ul>
+
+        <h2>Beispiele für inline elemente</h2>
+        <ul>
+          <li>a</li>
+          <li>button</li>
+          <li>img</li>
+          <li>input</li>
+          <li>label</li>
+          <li>textarea</li>
+          <li>span</li>
+        </ul>
+      </section>
+
+      <section>
+        <h3>Ich h3</h3>
+
+        <a href="#">Ich bin ein a Tag</a>
+        <a href="#">Ich bin auch ein a tag</a>
+      </section>
+
+      <section>
+        <h2>Drei Möglichkeiten css in html einzubinden</h2>
+
+        <ol>
+          <li>externes Dokument</li>
+          <p>
+            neuen Ordner erstellen css und dann Datei mit style.css -> in head
+            kommt "link" mit dem Pfad zur CSS Datei
+          </p>
+          <li>intern</li>
+          <p>
+            in den head schreiben wir style HIER schreiben wir den style rein ->
+            Nachteil: dann ist alles in HTML Datei, keiner blickt durch
+          </p>
+          <li>inline style</li>
+          <p style="color: green; background-color: orange">
+            Hier schreiben wir das Attribut direkt in die Zeile wo wir es haben
+            wollen. Nach einem Befehl kommt dann das ; zum trennen
+          </p>
+        </ol>
+      </section>
+
+      <hr />
+
+      <section>
+        <article>
+          <h2>Pseudo Classen</h2>
+          <ul>
+            <li>EInkaufen</li>
+            <li>SPort</li>
+            <li>kochen</li>
+            <li>schlafen</li>
+          </ul>
+        </article>
+      </section>
+
+      <section>
+        <h6>Ich bin eine h6</h6>
+      </section>
+    </main>
+  </body>
+</html>

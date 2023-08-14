@@ -1,0 +1,14 @@
+html {
+  background-color: rgb(165, 172, 148);
+}
+
+h1 {
+  font-family: monospace;
+  font-size: 10rem;
+  color: #353531;
+  font-weight: 700;
+  text-align: center;
+
+  text-shadow: 5px 5px 0px #ec4e20, 10px 10px 0 #ff9505, 15px 15px 0 #016fb9,
+    20px 20px 0 #f2f3d9, 25px 25px 0 #7cb518;
+}

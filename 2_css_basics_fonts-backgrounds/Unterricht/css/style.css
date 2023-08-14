@@ -1,0 +1,83 @@
+body {
+  background-color: aqua;
+}
+
+p {
+  background-color: beige;
+}
+
+article p {
+  color: red;
+}
+
+/* nimmt das letzte Element aus der Gruppe-Liste */
+section ul li:last-child {
+  background-color: brown;
+}
+
+/* Nimmt das letzte Element vom jeweiligen Typen aus den jeweiligen Sections*/
+h2:last-of-type {
+  color: red;
+}
+
+/* Nimmt das erste Element vom jeweiligen Typen aus den jeweiligen Sections  */
+h3:first-of-type {
+  background-color: yellow;
+}
+
+/* wenn man nur ein Element erreichen möchte */
+section ul li:nth-of-type(2) {
+  color: blue;
+}
+
+section article {
+  background-color: white;
+  height: 300px;
+
+  background-image: url("https://assets-global.website-files.com/62d9141584e7b7430fcafa69/6391be3dadceba257b596dc4_schomeheader_02.webp");
+
+  /* benötigen wir, damit sich das Bild nicht wiederholt */
+  background-repeat: no-repeat;
+
+  /* benötigen wir um das ganze Bild zu sehen */
+  background-position: center;
+
+  /* benötigen wir um das ganze Bild zu sehen */
+  background-size: contain;
+
+  /* SHorthand property, 3 Befehle in einem */
+  /* background: url("link") no repeat center */
+}
+
+h6 {
+  background-color: black;
+  color: white;
+  font-size: 50px;
+}
+
+span {
+  color: white;
+  font-size: 40px;
+}
+
+/* So benutzen wir Schriftarten */
+/* download google fonts -> drag und drop in assets ordner */
+
+@font-face {
+  font-family: Carinas Schrift;
+  src: url(../assets/Raleway-Light.ttf);
+}
+
+h6 {
+  font-weight: 800;
+  text-decoration: underline;
+  text-align: center;
+  text-shadow: 50px 5px 3px green;
+  letter-spacing: 10px;
+  word-spacing: 20px;
+  
+}
+
+html {
+  font-family: Carinas Schrift, Arial, Helvetica, sans-serif;
+}

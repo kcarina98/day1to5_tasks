@@ -1,0 +1,22 @@
+div {
+  box-sizing: border-box;
+  height: 150px;
+  width: 150px;
+  margin: 50px;
+
+  background-color: #9bc1bc;
+  border: 10px solid #f4f1bb;
+  outline: 5px solid #546a7b;
+  box-shadow: 0 0 0px 20px #ed6a5a;
+}
+
+ul {
+  list-style: none;
+}
+ul li::before {
+  content: "\25b6";
+}
+
+li:nth-of-type(1) {
+  color: #9bc1bc;
+}

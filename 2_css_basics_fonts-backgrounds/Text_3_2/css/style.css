@@ -1,0 +1,88 @@
+@font-face {
+  font-family: cinzel;
+  src: url(../Cinzel-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: pacifico;
+  src: url(../Pacifico-Regular.ttf);
+}
+
+@font-face {
+  font-family: shadows;
+  src: url(../ShadowsIntoLight-Regular.ttf);
+}
+
+@font-face {
+  font-family: lato;
+  src: url(../Lato-Black.ttf);
+}
+
+.font-cinzel {
+  font-family: cinzel;
+}
+
+.style-italic {
+  font-style: italic;
+}
+
+.cinzel-12 {
+  font-size: 12px;
+}
+
+.cinzel-36 {
+  font-size: 36px;
+}
+
+.cinzel-52 {
+  font-size: 52px;
+}
+
+/* LATO */
+.font-lato {
+  font-family: lato;
+}
+
+.lato-thin {
+  font-weight: thin;
+}
+
+.lato-bold {
+  font-weight: bold;
+}
+
+/* Pacifico */
+.font-pacifico {
+  font-family: pacifico;
+}
+
+.shadow-pacifico {
+  text-shadow: 2px 0 2px green;
+}
+
+.underline-pacifico {
+  text-decoration: underline;
+}
+
+/* geht nicht???  */
+.transform-pacifico {
+  transform: lowercase;
+}
+
+/* SHADOWS */
+
+.font-shadows {
+  font-family: shadows;
+}
+
+.shadows-background {
+  background-color: green;
+}
+
+.shadows-color {
+  color: green;
+}
+
+.shadows-border {
+  border: dotted green;
+}

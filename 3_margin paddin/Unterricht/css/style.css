@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+div {
+  background-color: red;
+  height: 100px;
+  width: 100px;
+  border: 20px solid orange;
+}
+
+article {
+  background-color: linen;
+  height: 80px;
+  
+  /* Möglichkeit 1 */
+  margin: 5px 10px 30x 40px;
+/* Möglichkeit 2- der erste Wert für ob und unten */
+margin: 30px 60px;
+/* Möglichkeit 3 */
+margin-top: 10px;
+margin-right: 20px;
+margin-bottom: 30px;
+margin-left: 20px;
+}
+

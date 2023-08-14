@@ -1,0 +1,60 @@
+h1::first-letter {
+  font-size: 3em;
+  color: #00796b;
+}
+
+h1:hover::first-letter {
+  color: #4fc3f7;
+}
+
+ul li::marker {
+  content: " ";
+}
+
+.through {
+  text-decoration: line-through;
+}
+
+.through::before {
+  content: "✅ ";
+}
+
+.color {
+  background-color: aquamarine;
+}
+
+.color::before {
+  content: "🤓 ";
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.underline::before {
+  content: "☑️ ";
+}
+
+.gym::after {
+  content: "🏋🏼‍♀️ ";
+}
+
+.pay::after {
+  content: "💶 ";
+}
+
+.meet:after {
+  content: "👩🏼‍🤝‍👨🏽 ";
+}
+
+.eggs::after {
+  content: "🥚";
+}
+
+.book::after {
+  content: "📖 ";
+}
+
+.office::after {
+  content: "🗑 ";
+}
